@@ -2,7 +2,7 @@
  * @Author: zhuima zhuima314@gmail.com
  * @Date: 2024-06-11 19:28:15
  * @LastEditors: zhuima zhuima314@gmail.com
- * @LastEditTime: 2024-06-12 13:33:13
+ * @LastEditTime: 2024-06-12 17:22:05
  * @FilePath: /waitlist/components/home/CTAButton.tsx
  * @Description:
  *
@@ -96,13 +96,13 @@ const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="relative mx-auto mb-4 flex w-full max-w-2xl flex-col items-start justify-center sm:flex-row"
+      className="relative mx-auto mb-4 flex w-full max-w-2xl flex-col items-start sm:flex-row px-4 sm:px-6"
     >
       <input
         type="email"
         {...register("email")}
         placeholder={locale.title}
-        className="mb-3 mr-6 block h-9 w-full border border-blue-500 bg-white dark:bg-gray-800 px-6 py-7 text-sm text-[#333333] dark:text-gray-200 focus:border-[#3898ec] dark:focus:border-blue-500 focus:outline-none transition-colors duration-200"
+        className="mb-3 sm:mb-0 sm:mr-4 block  w-full border border-blue-500 rounded-lg bg-white dark:bg-gray-800 px-4 py-4 text-sm text-[#333333] dark:text-gray-200 focus:border-[#3898ec] dark:focus:border-blue-500 focus:outline-none transition-colors duration-200"
         required
       />
       {errors.email && (
@@ -111,7 +111,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
       <input
         type="submit"
         value={locale.button}
-        className="inline-block cursor-pointer bg-[#276ef1] dark:bg-blue-700 px-6 py-3 text-center font-semibold text-white transition [box-shadow:rgb(171,_196,_245)_-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]"
+        className="w-auto cursor-pointer bg-[#276ef1] dark:bg-blue-700 px-6 py-2 text-center font-semibold text-white transition [box-shadow:rgb(171,_196,_245)_-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px] sm:self-auto self-center"
         aria-label="Submit Email"
       />
     </form>
