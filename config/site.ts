@@ -2,7 +2,7 @@
  * @Author: zhuima zhuima314@gmail.com
  * @Date: 2024-06-11 19:28:15
  * @LastEditors: zhuima zhuima314@gmail.com
- * @LastEditTime: 2024-06-12 09:48:48
+ * @LastEditTime: 2024-06-12 13:51:01
  * @FilePath: /waitlist/config/site.ts
  * @Description:
  *
@@ -29,6 +29,9 @@ const baseSiteConfig = {
       twitter: "https://twitter.com/ilovek8s",
     },
   ],
+  alternates: {
+    canonical: "https://waitlist.chuhai.tools",
+  },
   creator: "@ilovek8s",
   // openSourceURL: "https://github.com/weijunext/landing-page-boilerplate",
   themeColors: [
@@ -103,6 +106,7 @@ export const siteConfig: SiteConfig = {
   twitter: {
     card: "summary_large_image",
     title: baseSiteConfig.name,
+    site: baseSiteConfig.url,
     description: baseSiteConfig.description,
     images: [`${baseSiteConfig.url}/og.png`],
     creator: baseSiteConfig.creator,
