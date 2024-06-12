@@ -12,6 +12,7 @@ import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";
 import { Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default async function RootLayout({
           enableSystem
         >
           <Header />
+          <Toaster />
           <main className="flex flex-col items-center py-6">{children}</main>
           <Footer />
           <Analytics />

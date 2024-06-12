@@ -1,43 +1,44 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "idol",
+    "title2": "Beta Launch",
+    "title3": "",
+    "description": "Snap a photo with your idol, the beta is about to begin."
   },
   "SocialProof": {
-    "maker": "makers ship fast"
+    "maker": "Users have already joined the beta"
   },
   "Feature": {
-    "title": "Features"
+    "title": "Feature"
   },
   "Pricing": {
     "title": "Pricing",
-    "title2": "Get unlimited access.",
-    "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
-    "follow": "Follow my Twitter."
+    "title2": "Get Unlimited Access",
+    "description": "You are currently viewing the Idol Waitlist page.",
+    "doYouLike": "Do you have more questions?",
+    "follow": "Follow and contact me on Twitter."
   },
   "WallOfLove": {
     "title": "Wall of Love",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
+    "description1": "If you use this landing page template and recommend it on Twitter,",
     "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+    "description3": ", and I will showcase your tweet and recommendation here."
   },
   "FAQ": {
     "title": "FAQs",
-    "description": "Here are some of the most frequently asked questions."
+    "description": "Here are some of the most common questions."
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
+    "title": "Join the Beta Now",
+    "description1": "Enjoy",
+    "description2": "taking photos with your idol,",
+    "description3": "show off",
+    "description4": "to your friends",
+    "description5": "and gain exposure",
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Join the Beta",
+    "button": "Join Now"
   }
 }

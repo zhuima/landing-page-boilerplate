@@ -1,3 +1,13 @@
+/*
+import { LineText } from "@/components/LineText";
+import CTAButton from "@/components/home/CTAButton";
+import { motion } from "framer-motion";
+ * @LastEditTime: 2024-06-12 12:20:37
+ * @FilePath: /waitlist/components/home/Hero.tsx
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 "use client";
 import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";

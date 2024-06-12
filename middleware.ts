@@ -11,10 +11,19 @@ export function middleware(request: NextRequest) {
 
   if (isExit) return;
 
+  if (pathname.startsWith("/api")) {
+    // Allow API requests to proceed without redirection
+    return;
+  }
+
   request.nextUrl.pathname = `/`;
   return Response.redirect(request.nextUrl);
 }
 
 export const config = {
-  matcher: ["/((?!_next)(?!.*\\.(?:ico|png|svg|jpg|jpeg|xml|txt)$)(?!/api).*)"],
+  // matcher: ["/((?!_next)(?!.*\\.(?:ico|png|svg|jpg|jpeg|xml|txt)$)(?!/api).*)"],
+  // matcher: [
+  //   "/((?!_next)(?!.*\\.(?:ico|png|svg|jpg|jpeg|xml|txt)$)(?!/api/).*)",
+  // ],
+  matcher: ["/((?!_next)(?!.*\\.(?:ico|png|svg|jpg|jpeg|xml|txt)$).*)"],
 };

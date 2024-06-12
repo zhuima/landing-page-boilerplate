@@ -1,3 +1,13 @@
+/*
+ * @Author: zhuima zhuima314@gmail.com
+ * @Date: 2024-06-11 19:28:15
+ * @LastEditors: zhuima zhuima314@gmail.com
+ * @LastEditTime: 2024-06-12 12:11:25
+ * @FilePath: /waitlist/components/home/CTA.tsx
+ * @Description:
+ *
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved.
+ */
 /* eslint-disable react/no-unescaped-entities */
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";

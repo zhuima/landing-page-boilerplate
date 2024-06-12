@@ -1,60 +1,93 @@
+/*
+ * @Author: zhuima zhuima314@gmail.com
+ * @Date: 2024-06-11 19:28:15
+ * @LastEditors: zhuima zhuima314@gmail.com
+ * @LastEditTime: 2024-06-12 09:48:48
+ * @FilePath: /waitlist/config/site.ts
+ * @Description:
+ *
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved.
+ */
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
+import { BsGithub, BsTwitterX } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
+import { SiBuymeacoffee } from "react-icons/si";
 
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+const OPEN_SOURCE_URL = "https://github.com/zhuima";
 
 const baseSiteConfig = {
-  name: "Landing page boilerplate",
-  description:
-    "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://landingpage.weijunext.com",
-  ogImage: "https://landingpage.weijunext.com/og.png",
-  metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  name: "Idol Waitlist",
+  description: "咔嚓一下，和idol合影触手可及，内测即将开启.",
+  url: "https://waitlist.chuhai.tools",
+  ogImage: "https://waitlist.chuhai.tools/og.png",
+  metadataBase: "/",
+  keywords: ["Idol Waitlist", "Waitlist"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
-    }
+      name: "zhuima",
+      url: "https://chuhai.tools",
+      twitter: "https://twitter.com/ilovek8s",
+    },
   ],
-  creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  creator: "@ilovek8s",
+  // openSourceURL: "https://github.com/weijunext/landing-page-boilerplate",
   themeColors: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  nextThemeColor: 'dark', // next-theme option: system | dark | light
+  nextThemeColor: "dark", // next-theme option: system | dark | light
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: "repo", href: OPEN_SOURCE_URL, icon: BsGithub },
+    {
+      name: "twitter",
+      href: "https://twitter.com/ilovek8s",
+      icon: BsTwitterX,
+    },
+    {
+      name: "buyMeCoffee",
+      href: "https://www.buymeacoffee.com/zhuima",
+      icon: SiBuymeacoffee,
+    },
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+    { name: "email", href: "mailto:zhuima314@gmail.com", icon: MdEmail },
+    {
+      name: "twitter",
+      href: "https://twitter.com/ilovek8s",
+      icon: BsTwitterX,
+    },
+    { name: "github", href: "https://github.com/zhuima/", icon: BsGithub },
+    {
+      name: "buyMeCoffee",
+      href: "https://www.buymeacoffee.com/zhuima",
+      icon: SiBuymeacoffee,
+    },
+    // {
+    //   name: "juejin",
+    //   href: "https://juejin.cn/user/26044008768029",
+    //   icon: SiJuejin,
+    // },
+    // {
+    //   name: "weChat",
+    //   href: "https://weijunext.com/make-a-friend",
+    //   icon: BsWechat,
+    // },
   ],
   footerProducts: [
-    { url: 'https://weijunext.com/', name: 'J实验室' },
-    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
-    { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
-    { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
-    { url: 'https://githubbio.com', name: 'Github Bio Generator' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
-  ]
-}
+    { url: "https://chuhai.tools/", name: "Indie Hacker Tools" },
+    { url: "https://seo.chuhai.tools/", name: "SEO Hacker Tools" },
+    { url: "https://xiaobaot.best/", name: "小报童专栏甄选" },
+    {
+      url: "https://github.com/zhuima/awesome-cloudflare",
+      name: "Awesome Cloudflare",
+    },
+  ],
+};
 
 export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
@@ -64,6 +97,7 @@ export const siteConfig: SiteConfig = {
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
+    images: [`${baseSiteConfig.url}/og.png`],
     siteName: baseSiteConfig.name,
   },
   twitter: {
@@ -73,4 +107,4 @@ export const siteConfig: SiteConfig = {
     images: [`${baseSiteConfig.url}/og.png`],
     creator: baseSiteConfig.creator,
   },
-}
+};

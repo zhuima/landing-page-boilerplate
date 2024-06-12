@@ -1,43 +1,44 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "ランディングページ",
-    "title3": "迅速に構築",
-    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
+    "title1": "アイドル",
+    "title2": "ベータ版開始",
+    "title3": "",
+    "description": "アイドルとの写真を撮って、ベータ版が間もなく始まります。"
   },
   "SocialProof": {
-    "maker": "開発者が迅速に出荷"
+    "maker": "ユーザーはすでにベータ版に参加しています"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "機能"
   },
   "Pricing": {
-    "title": "価格設定",
-    "title2": "無制限アクセスを取得。",
-    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
-    "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
-    "follow": "私のTwitterをフォローしてください。"
+    "title": "価格",
+    "title2": "無制限アクセスを取得",
+    "description": "現在、あなたはアイドルの待機リストページを見ています。",
+    "doYouLike": "他に質問がありますか？",
+    "follow": "Twitterでフォローして連絡してください。"
   },
   "WallOfLove": {
-    "title": "WallOfLove",
-    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
-    "description2": "私に知らせてください",
-    "description3": "。あなたのツイートと推薦をここに表示します。"
+    "title": "愛の壁",
+    "description1": "このランディングページのテンプレートを使用してTwitterで推薦した場合、",
+    "description2": "私に教えてください",
+    "description3": "、ここであなたのツイートと推薦を表示します。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "最も頻繁に尋ねられる質問はこちらです。"
+    "title": "よくある質問",
+    "description": "ここにいくつかの一般的な質問があります。"
   },
   "CTA": {
-    "title": "今すぐあなたのランディングページを構築",
-    "description1": "あなたのランディングページを",
-    "description2": "構築し、",
-    "description3": "あなたの製品を",
-    "description4": "紹介し、そして",
-    "description5": "収益を得始めましょう",
+    "title": "今すぐベータ版に参加",
+    "description1": "楽しんで",
+    "description2": "アイドルとの写真撮影、",
+    "description3": "見せびらかして",
+    "description4": "友達に",
+    "description5": "そして露出を獲得",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "テンプレートを入手"
+    "title": "ベータ版に参加",
+    "button": "今すぐ参加"
   }
 }

@@ -1,4 +1,3 @@
-
 import { siteConfig } from "@/config/site";
 import { Tier, TiersEnum } from "@/types/pricing";
 
@@ -8,8 +7,7 @@ export const TIERS_EN: Array<Tier> = [
     title: "Open-Source / Free",
     price: "Free",
     href: siteConfig.openSourceURL || "#",
-    description:
-      "Freely clone the landing page boilerplate from the GitHub repository.",
+    description: "Freely clone the Idol Waitlist from the GitHub repository.",
     features: [
       "Free",
       "Access to full code",
@@ -46,12 +44,7 @@ export const TIERS_ZH: Array<Tier> = [
     price: "免费",
     href: siteConfig.openSourceURL || "#",
     description: "可从GitHub仓库免费克隆落地页模板。",
-    features: [
-      "免费",
-      "访问全部代码",
-      "二次开发",
-      "MIT 许可证",
-    ],
+    features: ["免费", "访问全部代码", "二次开发", "MIT 许可证"],
     buttonText: "开始",
     buttonColor: "primary",
     buttonVariant: "solid",
@@ -81,13 +74,9 @@ export const TIERS_JA: Array<Tier> = [
     title: "オープンソース / 無料",
     price: "無料",
     href: siteConfig.openSourceURL || "#",
-    description: "GitHubリポジトリからランディングページのボイラープレートを自由にクローンできます。",
-    features: [
-      "無料",
-      "全コードへのアクセス",
-      "二次開発",
-      "MITライセンス",
-    ],
+    description:
+      "GitHubリポジトリからランディングページのボイラープレートを自由にクローンできます。",
+    features: ["無料", "全コードへのアクセス", "二次開発", "MITライセンス"],
     buttonText: "始める",
     buttonColor: "primary",
     buttonVariant: "solid",
@@ -118,12 +107,7 @@ export const TIERS_AR: Array<Tier> = [
     price: "مجاناً",
     href: siteConfig.openSourceURL || "#",
     description: "يمكنك نسخ قالب صفحة الهبوط من مستودع GitHub بحرية.",
-    features: [
-      "مجاني",
-      "الوصول إلى كامل الكود",
-      "التطوير الثانوي",
-      "رخصة MIT",
-    ],
+    features: ["مجاني", "الوصول إلى كامل الكود", "التطوير الثانوي", "رخصة MIT"],
     buttonText: "ابدأ الآن",
     buttonColor: "primary",
     buttonVariant: "solid",
@@ -231,5 +215,5 @@ export const ALL_TIERS: TiersCollection = {
   TIERS_JA,
   TIERS_AR,
   TIERS_ES,
-  TIERS_RU
-}
+  TIERS_RU,
+};

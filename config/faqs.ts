@@ -15,7 +15,7 @@ export const FAQS_EN = [
       "Landing pages are crucial for any marketing strategy because they provide a targeted platform for converting visitors into leads or customers. Unlike general websites, landing pages focus the visitor's attention on a single offer, minimizing distractions and guiding them towards a specific action. This focused approach can significantly increase the effectiveness of your marketing campaigns, improve your ad performance, and enhance the overall user experience by providing them with the information or solution they were seeking.",
   },
   {
-    title: "Why choose our landing page boilerplate?",
+    title: "Why choose our Idol Waitlist?",
     content:
       "Our landing page template is free, open-source, and powerful, making it ideal for various projects and marketing campaigns. It allows you to create a landing page in under an hour, simplifying the development process while also offering a high degree of customization and responsiveness.",
   },

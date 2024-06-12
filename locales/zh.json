@@ -1,12 +1,12 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
+    "title1": "idol",
+    "title2": "开启内测",
     "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "description": "咔嚓一下，和idol合影触手可及，内测即将开启。"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "用户已经加入内测"
   },
   "Feature": {
     "title": "Feature"
@@ -14,9 +14,9 @@
   "Pricing": {
     "title": "定价",
     "title2": "拥有无限访问权限",
-    "description": "你当前查看的页面是一个开源的、免费的模板。",
-    "doYouLike": "你喜欢这个落地页模板吗？",
-    "follow": "关注我的推特。"
+    "description": "你当前查看的页面是Idol Waitlist页面。",
+    "doYouLike": "如果你有更多问题？",
+    "follow": "关注使用推特联系我。"
   },
   "WallOfLove": {
     "title": "Wall of Love",
@@ -29,15 +29,16 @@
     "description": "这里有一些最常见的问题。"
   },
   "CTA": {
-    "title": "立即构建你的落地页",
-    "description1": "构建",
-    "description2": "你的落地页，",
+    "title": "立即加入内测",
+    "description1": "尽享",
+    "description2": "和你的idol合影，",
     "description3": "展示",
-    "description4": "你的产品，并开始",
-    "description5": "赚取收入",
+    "description4": "你的朋友圈",
+    "description5": "并赢得流量",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取模板"
+    "title": "加入内测",
+    "button": "立即加入"
   }
 }
