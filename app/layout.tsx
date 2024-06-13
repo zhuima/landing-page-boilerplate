@@ -1,3 +1,13 @@
+/*
+ * @Author: zhuima zhuima314@gmail.com
+ * @Date: 2024-06-11 19:28:15
+ * @LastEditors: zhuima zhuima314@gmail.com
+ * @LastEditTime: 2024-06-13 08:35:13
+ * @FilePath: /waitlist/app/layout.tsx
+ * @Description:
+ *
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved.
+ */
 import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
@@ -25,6 +35,7 @@ export const metadata = {
   keywords: siteConfig.keywords,
   authors: siteConfig.authors,
   creator: siteConfig.creator,
+  alternates: siteConfig.alternates,
   icons: siteConfig.icons,
   metadataBase: siteConfig.metadataBase,
   openGraph: siteConfig.openGraph,
